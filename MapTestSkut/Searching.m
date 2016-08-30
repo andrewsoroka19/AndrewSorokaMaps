@@ -16,6 +16,7 @@
 @property(nonatomic, assign) MKCoordinateRegion boundingRegion;
 @property(nonatomic, strong) NSArray<MKMapItem *> *places;
 @property(nonatomic, strong) MKLocalSearch *localSearch;
+@property(nonatomic, strong) MKLocalSearch *meSearch;
 
 @end
 
