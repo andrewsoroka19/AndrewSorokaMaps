@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0182881D4A33B6001B16EC /* Searching.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0182871D4A33B6001B16EC /* Searching.m */; };
+		5D0CE9B21D48C24E00C74B20 /* Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CE9B11D48C24E00C74B20 /* Navigation.m */; };
+		5DF6CED41D475980008BE782 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6CED31D475980008BE782 /* TableViewController.m */; };
+		5DF7BE4E1D40EC4500BF9DAE /* UIView+MKAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF7BE4D1D40EC4500BF9DAE /* UIView+MKAnnotationView.m */; };
+		5DFFA28A1D3E2520002DAE21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFA2891D3E2520002DAE21 /* main.m */; };
+		5DFFA28D1D3E2520002DAE21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFA28C1D3E2520002DAE21 /* AppDelegate.m */; };
+		5DFFA2901D3E2520002DAE21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFA28F1D3E2520002DAE21 /* ViewController.m */; };
+		5DFFA2931D3E2520002DAE21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFA2911D3E2520002DAE21 /* Main.storyboard */; };
+		5DFFA2981D3E2520002DAE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFA2971D3E2520002DAE21 /* Assets.xcassets */; };
+		5DFFA29B1D3E2520002DAE21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFA2991D3E2520002DAE21 /* LaunchScreen.storyboard */; };
+		5DFFA2BF1D3E2534002DAE21 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFFA2BE1D3E2534002DAE21 /* MapKit.framework */; };
+		5DFFA2C11D3E256F002DAE21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFFA2C01D3E256F002DAE21 /* UIKit.framework */; };
+		5DFFA2C41D3E4949002DAE21 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFA2C31D3E4949002DAE21 /* MapAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DFFA2A21D3E2520002DAE21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DFFA27D1D3E2520002DAE21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DFFA2841D3E2520002DAE21;
+			remoteInfo = MapTestSkut;
+		};
+		5DFFA2AD1D3E2520002DAE21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DFFA27D1D3E2520002DAE21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DFFA2841D3E2520002DAE21;
+			remoteInfo = MapTestSkut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D0182861D4A33B6001B16EC /* Searching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Searching.h; sourceTree = "<group>"; };
+		5D0182871D4A33B6001B16EC /* Searching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Searching.m; sourceTree = "<group>"; };
+		5D0CE9B01D48C24E00C74B20 /* Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigation.h; sourceTree = "<group>"; };
+		5D0CE9B11D48C24E00C74B20 /* Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Navigation.m; sourceTree = "<group>"; };
+		5DF6CED21D475980008BE782 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5DF6CED31D475980008BE782 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5DF7BE4C1D40EC3A00BF9DAE /* UIView+MKAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MKAnnotationView.h"; sourceTree = "<group>"; };
+		5DF7BE4D1D40EC4500BF9DAE /* UIView+MKAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MKAnnotationView.m"; sourceTree = "<group>"; };
+		5DFFA2851D3E2520002DAE21 /* SorokaAndrewMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SorokaAndrewMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFFA2891D3E2520002DAE21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DFFA28B1D3E2520002DAE21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DFFA28C1D3E2520002DAE21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DFFA28E1D3E2520002DAE21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DFFA28F1D3E2520002DAE21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DFFA2921D3E2520002DAE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DFFA2971D3E2520002DAE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DFFA29A1D3E2520002DAE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DFFA29C1D3E2520002DAE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFFA2A11D3E2520002DAE21 /* SorokaAndrewMaps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SorokaAndrewMaps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFFA2AC1D3E2520002DAE21 /* SorokaAndrewMaps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SorokaAndrewMaps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFFA2BE1D3E2534002DAE21 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5DFFA2C01D3E256F002DAE21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DFFA2C21D3E4949002DAE21 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		5DFFA2C31D3E4949002DAE21 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DFFA2821D3E2520002DAE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFFA2C11D3E256F002DAE21 /* UIKit.framework in Frameworks */,
+				5DFFA2BF1D3E2534002DAE21 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA29E1D3E2520002DAE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA2A91D3E2520002DAE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DFFA27C1D3E2520002DAE21 = {
+			isa = PBXGroup;
+			children = (
+				5DFFA2C01D3E256F002DAE21 /* UIKit.framework */,
+				5DFFA2BE1D3E2534002DAE21 /* MapKit.framework */,
+				5DFFA2871D3E2520002DAE21 /* SorokaAndrewMap */,
+				5DFFA2861D3E2520002DAE21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DFFA2861D3E2520002DAE21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFA2851D3E2520002DAE21 /* SorokaAndrewMaps.app */,
+				5DFFA2A11D3E2520002DAE21 /* SorokaAndrewMaps.xctest */,
+				5DFFA2AC1D3E2520002DAE21 /* SorokaAndrewMaps.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DFFA2871D3E2520002DAE21 /* SorokaAndrewMap */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFA28B1D3E2520002DAE21 /* AppDelegate.h */,
+				5DFFA28C1D3E2520002DAE21 /* AppDelegate.m */,
+				5DFFA28E1D3E2520002DAE21 /* ViewController.h */,
+				5DFFA28F1D3E2520002DAE21 /* ViewController.m */,
+				5DFFA2911D3E2520002DAE21 /* Main.storyboard */,
+				5DFFA2971D3E2520002DAE21 /* Assets.xcassets */,
+				5DFFA2991D3E2520002DAE21 /* LaunchScreen.storyboard */,
+				5DFFA29C1D3E2520002DAE21 /* Info.plist */,
+				5DFFA2881D3E2520002DAE21 /* Supporting Files */,
+				5DFFA2C21D3E4949002DAE21 /* MapAnnotation.h */,
+				5DFFA2C31D3E4949002DAE21 /* MapAnnotation.m */,
+				5DF7BE4C1D40EC3A00BF9DAE /* UIView+MKAnnotationView.h */,
+				5DF7BE4D1D40EC4500BF9DAE /* UIView+MKAnnotationView.m */,
+				5DF6CED21D475980008BE782 /* TableViewController.h */,
+				5DF6CED31D475980008BE782 /* TableViewController.m */,
+				5D0CE9B01D48C24E00C74B20 /* Navigation.h */,
+				5D0CE9B11D48C24E00C74B20 /* Navigation.m */,
+				5D0182861D4A33B6001B16EC /* Searching.h */,
+				5D0182871D4A33B6001B16EC /* Searching.m */,
+			);
+			name = SorokaAndrewMap;
+			path = MapTestSkut;
+			sourceTree = "<group>";
+		};
+		5DFFA2881D3E2520002DAE21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFA2891D3E2520002DAE21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DFFA2841D3E2520002DAE21 /* SorokaAndrewMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFFA2B51D3E2520002DAE21 /* Build configuration list for PBXNativeTarget "SorokaAndrewMaps" */;
+			buildPhases = (
+				5DFFA2811D3E2520002DAE21 /* Sources */,
+				5DFFA2821D3E2520002DAE21 /* Frameworks */,
+				5DFFA2831D3E2520002DAE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SorokaAndrewMaps;
+			productName = MapTestSkut;
+			productReference = 5DFFA2851D3E2520002DAE21 /* SorokaAndrewMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DFFA2A01D3E2520002DAE21 /* SorokaAndrewMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFFA2B81D3E2520002DAE21 /* Build configuration list for PBXNativeTarget "SorokaAndrewMapsTests" */;
+			buildPhases = (
+				5DFFA29D1D3E2520002DAE21 /* Sources */,
+				5DFFA29E1D3E2520002DAE21 /* Frameworks */,
+				5DFFA29F1D3E2520002DAE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFFA2A31D3E2520002DAE21 /* PBXTargetDependency */,
+			);
+			name = SorokaAndrewMapsTests;
+			productName = MapTestSkutTests;
+			productReference = 5DFFA2A11D3E2520002DAE21 /* SorokaAndrewMaps.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DFFA2AB1D3E2520002DAE21 /* SorokaAndrewMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFFA2BB1D3E2520002DAE21 /* Build configuration list for PBXNativeTarget "SorokaAndrewMapsUITests" */;
+			buildPhases = (
+				5DFFA2A81D3E2520002DAE21 /* Sources */,
+				5DFFA2A91D3E2520002DAE21 /* Frameworks */,
+				5DFFA2AA1D3E2520002DAE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFFA2AE1D3E2520002DAE21 /* PBXTargetDependency */,
+			);
+			name = SorokaAndrewMapsUITests;
+			productName = MapTestSkutUITests;
+			productReference = 5DFFA2AC1D3E2520002DAE21 /* SorokaAndrewMaps.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DFFA27D1D3E2520002DAE21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Soroka Andrii";
+				TargetAttributes = {
+					5DFFA2841D3E2520002DAE21 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5DFFA2A01D3E2520002DAE21 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5DFFA2841D3E2520002DAE21;
+					};
+					5DFFA2AB1D3E2520002DAE21 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5DFFA2841D3E2520002DAE21;
+					};
+				};
+			};
+			buildConfigurationList = 5DFFA2801D3E2520002DAE21 /* Build configuration list for PBXProject "SorokaAndrewMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DFFA27C1D3E2520002DAE21;
+			productRefGroup = 5DFFA2861D3E2520002DAE21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DFFA2841D3E2520002DAE21 /* SorokaAndrewMaps */,
+				5DFFA2A01D3E2520002DAE21 /* SorokaAndrewMapsTests */,
+				5DFFA2AB1D3E2520002DAE21 /* SorokaAndrewMapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DFFA2831D3E2520002DAE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFFA29B1D3E2520002DAE21 /* LaunchScreen.storyboard in Resources */,
+				5DFFA2981D3E2520002DAE21 /* Assets.xcassets in Resources */,
+				5DFFA2931D3E2520002DAE21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA29F1D3E2520002DAE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA2AA1D3E2520002DAE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DFFA2811D3E2520002DAE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFFA2901D3E2520002DAE21 /* ViewController.m in Sources */,
+				5DF7BE4E1D40EC4500BF9DAE /* UIView+MKAnnotationView.m in Sources */,
+				5DFFA28D1D3E2520002DAE21 /* AppDelegate.m in Sources */,
+				5DFFA28A1D3E2520002DAE21 /* main.m in Sources */,
+				5DF6CED41D475980008BE782 /* TableViewController.m in Sources */,
+				5DFFA2C41D3E4949002DAE21 /* MapAnnotation.m in Sources */,
+				5D0CE9B21D48C24E00C74B20 /* Navigation.m in Sources */,
+				5D0182881D4A33B6001B16EC /* Searching.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA29D1D3E2520002DAE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA2A81D3E2520002DAE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DFFA2A31D3E2520002DAE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DFFA2841D3E2520002DAE21 /* SorokaAndrewMaps */;
+			targetProxy = 5DFFA2A21D3E2520002DAE21 /* PBXContainerItemProxy */;
+		};
+		5DFFA2AE1D3E2520002DAE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DFFA2841D3E2520002DAE21 /* SorokaAndrewMaps */;
+			targetProxy = 5DFFA2AD1D3E2520002DAE21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DFFA2911D3E2520002DAE21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFFA2921D3E2520002DAE21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DFFA2991D3E2520002DAE21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFFA29A1D3E2520002DAE21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DFFA2B31D3E2520002DAE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5DFFA2B41D3E2520002DAE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DFFA2B61D3E2520002DAE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapTestSkut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Soroka.SorokaMaps";
+				PRODUCT_NAME = SorokaAndrewMaps;
+			};
+			name = Debug;
+		};
+		5DFFA2B71D3E2520002DAE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapTestSkut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Soroka.SorokaMaps";
+				PRODUCT_NAME = SorokaAndrewMaps;
+			};
+			name = Release;
+		};
+		5DFFA2B91D3E2520002DAE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapTestSkutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Soroka.MapTestSkutTests";
+				PRODUCT_NAME = SorokaAndrewMaps;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SorokaAndrewMaps.app/SorokaAndrewMaps";
+			};
+			name = Debug;
+		};
+		5DFFA2BA1D3E2520002DAE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapTestSkutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Soroka.MapTestSkutTests";
+				PRODUCT_NAME = SorokaAndrewMaps;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SorokaAndrewMaps.app/SorokaAndrewMaps";
+			};
+			name = Release;
+		};
+		5DFFA2BC1D3E2520002DAE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapTestSkutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Soroka.MapTestSkutUITests";
+				PRODUCT_NAME = SorokaAndrewMaps;
+				TEST_TARGET_NAME = MapTestSkut;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5DFFA2BD1D3E2520002DAE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapTestSkutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Soroka.MapTestSkutUITests";
+				PRODUCT_NAME = SorokaAndrewMaps;
+				TEST_TARGET_NAME = MapTestSkut;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DFFA2801D3E2520002DAE21 /* Build configuration list for PBXProject "SorokaAndrewMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFFA2B31D3E2520002DAE21 /* Debug */,
+				5DFFA2B41D3E2520002DAE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFFA2B51D3E2520002DAE21 /* Build configuration list for PBXNativeTarget "SorokaAndrewMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFFA2B61D3E2520002DAE21 /* Debug */,
+				5DFFA2B71D3E2520002DAE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFFA2B81D3E2520002DAE21 /* Build configuration list for PBXNativeTarget "SorokaAndrewMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFFA2B91D3E2520002DAE21 /* Debug */,
+				5DFFA2BA1D3E2520002DAE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFFA2BB1D3E2520002DAE21 /* Build configuration list for PBXNativeTarget "SorokaAndrewMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFFA2BC1D3E2520002DAE21 /* Debug */,
+				5DFFA2BD1D3E2520002DAE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DFFA27D1D3E2520002DAE21 /* Project object */;
+}
